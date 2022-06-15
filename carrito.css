@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 *{
     font-family: 'Inria Serif', serif;
     box-sizing: border-box;
@@ -29,36 +30,28 @@
     padding: 20px;
     margin: 0px 20px;
 }
-
 .pizza{
-    width: 30%;
-    height: 30%;
+    width:70px;
 }
-
 .text{
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
-    color: #FFFFFF;
+    flex-direction: column;
+    align-items: flex-start;
+    color:#FFFFFF;
 }
-
 .off{
     font-size:22px;
+    text-align: center;
     font-weight: bold;
-    padding-bottom: 10px;
-}
+}   
 
-.discount{
-    padding-bottom: 10px;
-}
 
 .lista-pizzas{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-direction:column;
-    
+    flex-direction:column;   
  }
 
 .box-pizza{
@@ -100,8 +93,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-top: 5%; 
+}
+
+.ingredient{
+    color: A7A3A0;
     padding-top: 5%;
-    
 }
 
 .precio {
@@ -111,11 +108,6 @@
     align-items: center;
     padding-top: 5%;
     padding-bottom: 5%;
-}
-
-.ingredient{
-    color: A7A3A0;
-    padding-top: 5%;
 }
 
 .price{
@@ -132,6 +124,17 @@
     padding-left: 2%;
 }
 
+.cajacompra {
+    width: 100%;
+    height: 50%;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: center;
+    z-index:2000;
+    position: fixed;
+    }
+
 .boton-compra {
     width: 50px;
     height: 50px;
@@ -143,8 +146,7 @@
 
 .lleno {  
     background: rgba(255, 166, 0, 0.836);
-    }
-       
+    }    
         
 .fotocarrito {
     height: 29px;
@@ -157,7 +159,7 @@
     bottom: 14%;
     background: url(SeekPng.png);
     }
-
+         
 .boton2 {
     width: 30px;
     height: 30px;
@@ -192,26 +194,8 @@
         bottom: 14%;
     }
     
-.cajacompra {
-    width: 100%;
-    height: 74px;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    background: rgba(217, 217, 217, 0.5);
-    border-radius: 0px 0px 30px 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    padding-bottom: 16px;
-    z-index:2000;
-    background: rgba(217, 217, 217, 0.7);
-    border-radius: 0px 0px 40px 40px;
-    position: fixed;
-    margin: bottom; 
-    }
+
+
 
 
 .clear{
@@ -221,7 +205,7 @@
     padding: 20px 20px 10px 20px;
 }
 
-.boton{
+.botton{
    border: 0ch;
    background-color: #FFFFFF;
 }
@@ -262,14 +246,14 @@
 }
 
 .item2{
-display: flex;
-flex-direction: column;
+   display: flex;
+   flex-direction: column;
 }
 
 .nombrecarrito{
-    color: grey;
-    font-weight: bold;
-    font-size: 10px;
+   color: grey;
+   font-weight: bold;
+   font-size: 10px;
 }
 
 .preciocarrito{
@@ -311,7 +295,40 @@ flex-direction: column;
 }
 
 .pizza-carrito{
-margin-top: 20px;
+ margin-top: 20px;
+}
+
+
+.cajaprincipal {
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    padding-top: 20px;
+}
+
+.cajasecundaria {
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+    padding-top: 10px;   
+}
+
+.caja1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    padding-top: 5px;
+    color: gray;
+}
+.caja2 {
+    width: 142px;
+    height: 121px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cajaboton{
@@ -332,3 +349,45 @@ margin-top: 20px;
     width: 330px;
     height: 60px;
 }
+
+
+.fotocarrito2 {
+        width: 33px;
+        cursor: pointer;
+        background: url(SeekPng.png);
+        position: absolute;
+        left: 15%;
+        right: 97%;
+        top: 22%;
+        bottom: 14%;
+    }
+    .cajacompra {
+    width: 356px;
+    height: 74px;
+    left: 0%;
+    right: 0%;
+    top: 85%;
+    bottom: 0%;
+    background: rgba(217, 217, 217, 0.5);
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-end: auto;
+    padding-bottom: 16px;
+    z-index:2000;
+    background: rgba(217, 217, 217, 0.7);
+    border-radius: 0px 0px 40px 40px;
+    position: fixed;
+    margin: bottom;
+    }
+    .clearAll{
+        margin-top: 2%;
+        margin-left: 5%;
+        background-color: orange;
+        color: white;
+        font-family: "jost";
+        border: none;
+        padding: 1%;
+        border-radius: 10px;
+    }
