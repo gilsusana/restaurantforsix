@@ -12,58 +12,136 @@
 
 <body>
 
-    <img src="./img/logo-principal.png">
+  <div class="container-general" style="display:none";>
 
-    <div class="container-general" style="display:block";>
+    <img class="logo"src="./img/logo-principal.png">
 
-      
-          <h1 class="encabezado">Find your</h1> 
-          <h1 class="encabezado">favourite foods</h1>
-    
-  </div>
+    <div class="titulo">
+        <h1 class="encabezado">Find your</h1> 
+        <h1 class="encabezado">favourite foods</h1>
+    </div>          
 
-      <div class="banner">
+    <div class="banner">
           <img class="pizza" src="./img/pizzaicono.png">
              <li class="text">
                <p class="off">25% Off</p>
                <p class="discount">Enjoy 25% discount on</p>
-               <p class="discount">full Menú</p>
+               <p class="full-menu">full Menú</p>
             </li >
-       </div>
+    </div>
 
     <article class="lista-pizzas">
 
-        <div class="caja-imagen-pizza">
-            <img class="imagen-pizza" src="https://static6.depositphotos.com/1020618/606/i/450/depositphotos_6061944-stock-photo-pizza.jpg" alt="imagen-pizza">
-        </div>
-        
-        <div class="text">
-            <div class="name-pizza">
-               <p class="name">Name</p>
-               <p class="ingredient">Ingredient</p>
+        <div class="box-pizza">
+            <div class="caja-imagen-pizza">
+                <img class="imagen-pizza" src="./img/pizza1.png" alt="imagen-pizza">
             </div>
-
+            
+            <div class="texto">
+                <div class="name-pizza">
+                <p class="name">Name</p>
+                <p class="ingredient">Ingredient</p>
+            </div>
+    
             <div class="precio">
-               <p class= "price">Price</p>
+                <p class= "price">Price</p>
                 <button class="button-add">+</button>
             </div>
+          </div>
+      
+       
+
+      <div class="box-pizza">
+        <div class="caja-imagen-pizza">
+            <img class="imagen-pizza" src="./img/pizza2.png" alt="imagen-pizza">
         </div>
-          
+        
+        <div class="texto">
+            <div class="name-pizza">
+            <p class="name">Name</p>
+            <p class="ingredient">Ingredient</p>
+        </div>
+
+        <div class="precio">
+            <p class= "price">Price</p>
+            <button class="button-add">+</button>
+        </div>
+      </div>
+
+      </div>
     <article>
 
-<section class="cajacompra" style="display:none";>
+    <div class="cajacompra"> 
+        <div class="boton-compra lleno">
+            <img src="./img/SeekPng.com_carrinho-de-compras-png_4109493.png" class="fotocarrito2">
+            <button class="boton2">2</button>
+        </div>
+    </div>
 
-            <h6 class="limpiar">Clear All</h6>
-            <button class="boton">X</button> 
+</div>
+</div>
 
-    <h1 class="encabezado">Your</h1> 
-    <h1 class="encabezado">Cart Food</h1>  
 
-            <div class="boton-compra lleno">
-                <img src="./img/SeekPng.com_carrinho-de-compras-png_4109493.png" class="fotocarrito2">
-                <button class="boton2">2</button>
-            </div>
+<section class="container-cart" style="display:block";>
+    <div class="clear">
+      <h6 class="limpiar">Clear All</h6>
+     <button class="boton">X</button> 
+    </div>
 
+   <div class="titulo2">
+     <h1 class="encabezado">Your</h1> 
+     <h1 class="encabezado">Cart Food</h1>  
+   </div>
+   
+   <main>
+    <div class="pizzas-seleccionadas">
+     <div class="pizza-carrito">
+      <div class="div-imagen">
+         <img class="pizza-imagen"  src="" alt="imagen-pizza" >
+      </div>
+      <div class="item2">
+          <p class="nombrecarrito">Nombre</p>
+          <p class="preciocarrito">Precio</p>
+      </div>
+      <div class="item3">
+          <button class="boton" > + </button>
+          <p class="numero">1</p>  
+          <button class="boton" > - </button>
+      </div>
+     </div>
+    
+     <div class="pizza-carrito">
+        <div class="div-imagen">
+           <img class="pizza-imagen"  src="" alt="imagen-pizza" >
+        </div>
+        <div class="item2">
+            <p class="nombrecarrito">Nombre</p>
+            <p class="preciocarrito">Precio</p>
+        </div>
+        <div class="item3">
+            <button class="boton" > + </button>
+            <p class="numero">1</p>  
+            <button class="boton" > - </button>
+        </div>
+       </div>
+ 
+       <div class="pizza-carrito">
+        <div class="div-imagen">
+           <img class="pizza-imagen"  src="" alt="imagen-pizza" >
+        </div>
+        <div class="item2">
+            <p class="nombrecarrito">Nombre</p>
+            <p class="preciocarrito">Precio</p>
+        </div>
+        <div class="item3">
+            <button class="boton" > + </button>
+            <p class="numero">1</p>  
+            <button class="boton" > - </button>
+        </div>
+       </div>
+</div> 
+</main>
+        
    <div class="cajaboton">
         <button class="checkout">Checkout</button>
    </div>
