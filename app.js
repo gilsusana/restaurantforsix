@@ -12,6 +12,7 @@ function mostrarPrincipal(){
 
 mostrarPrincipal()
 */
+
 var elemento = document.getElementsByClassName("div-numeros");
  document.elemento.value = 0
  elemento.onclick = function imprimirNumeros(){ 
