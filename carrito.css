@@ -194,6 +194,13 @@
     padding: 20px 20px 10px 20px;
 }
 
+.button{
+    color:black;
+    font-size: 12px;
+    text-decoration: none;
+
+
+}
 .botton{
    border: 0ch;
    background-color: #FFFFFF;
