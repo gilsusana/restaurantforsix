@@ -280,13 +280,11 @@
    
 }
 
-
 @media (max-width:500px){}
 
 .pizza-carrito{
  margin-top: 20px;
 }
-
 
 .cajaprincipal {
     width: 100%;
@@ -349,4 +347,7 @@
     border: none;
     padding: 1%;
     border-radius: 10px;
+}
+.container-cart{
+    display: none;
 }

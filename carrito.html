@@ -12,7 +12,7 @@
    
 <body>
 
-  <div class="container-general" style="display:none";>
+  <div class="container-general">
 
     <img class="logo"src="./img/logo-principal.png">
 
@@ -43,7 +43,7 @@
                 </div>
                 <div class="info-precio-pizza">
                     <p class="precio-pizza">Precio<span>€</span></p>
-                    <button class="sumar-pizza" onclick="imprimirNumeros(item)">+</button>
+                    <button class="sumar-pizza"  onclick="addCounter()">+</button>
                 </div>
             </div>
          </div>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="info-precio-pizza">
                     <p class="precio-pizza">Precio<span>€</span></p>
-                    <button class="sumar-pizza" onclick="imprimirNumeros(item)">+</button>
+                    <button class="sumar-pizza"  onclick="addCounter()">+</button>
                 </div>
             </div>
          </div>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="info-precio-pizza">
                     <p class="precio-pizza">Precio<span>€</span></p>
-                    <button class="sumar-pizza" onclick="imprimirNumeros(item)">+</button>
+                    <button class="sumar-pizza"  onclick="addCounter()">+</button>
                 </div>
             </div>
          </div>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="info-precio-pizza">
                     <p class="precio-pizza">Precio<span>€</span></p>
-                    <button class="sumar-pizza" onclick="imprimirNumeros(item)">+</button>
+                    <button class="sumar-pizza"  onclick="addCounter()">+</button>
                 </div>
             </div>
          </div>
@@ -107,7 +107,7 @@
                 </div>
                 <div class="info-precio-pizza">
                     <p class="precio-pizza">Precio<span>€</span></p>
-                    <button class="sumar-pizza" onclick="imprimirNumeros(item)">+</button>
+                    <button class="sumar-pizza"onclick="addCounter()">+</button>
                 </div>
             </div>
          </div>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="info-precio-pizza">
                     <p class="precio-pizza">Precio<span> €</span></p>
-                    <button class="sumar-pizza" onclick="imprimirNumeros(item)">+</button>
+                    <button class="sumar-pizza" onclick="addCounter()">+</button>
                 </div>
             </div>
          </div>
@@ -131,17 +131,17 @@
     </div>
 
     <div class="cajacompra"> 
-        <div class="boton-compra lleno">
+        <a class="boton-compra lleno" onclick="ocultarPrincipal()">
             <img src="./img/SeekPng.com_carrinho-de-compras-png_4109493.png" class="fotocarrito2">
-            <button class="boton2">2</button>
-        </div>
+            <button class="boton2"><span id="counter">0</span></button>
+       
+        </a>
     </div>
 
 </div>
-</body>
  
 
-<section class="container-cart" style="display:block";>
+<section class="container-cart" ;>
     <div class="clear">
       <h6 class="limpiar">Clear All</h6>
       <a class="button" onclick="mostrarPrincipal()">X</a> 
