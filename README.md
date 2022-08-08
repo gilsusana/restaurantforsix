@@ -21,7 +21,11 @@ Como característica principal del diseño se nos pidió que fuese mobile first(
 ***
 
 ## Capturas de pantalla
-
+![mbl.png](img/mbl.png))
+***
+![mbl2.png](img/mbl2.png)
+***
+![figma.png](img/figma.png)
 ***
 
 ## Tecnologías
@@ -38,8 +42,8 @@ Como instalar el repositorio:
 2.  Clonar el proyecto con el comando: 
  ``` 
 https://github.com/gilsusana/restaurantforsix.git
+ ```
 ***
-
 
 ## Soporte
 
