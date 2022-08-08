@@ -54,7 +54,7 @@ Si tiene cualquier problema póngase en contacto con:
 ## Hoja de ruta
 
 En nuestra primera entrega presentamos la maquetación de la app del restaurante, con el sistema mobile first.
-Las su¡iguientes actualozaciones será para hacer responsive el diseño, mejorar la naevgación e interacción, un crud en el carrito, crear un mensaje y  enviar api a través de whatsapp; poder dar la opción de pagar por stripe/paypal etc y  consumir api del menú
+Las siguientes actualizaciones serán para hacer responsive el diseño, mejorar la naevgación e interacción, un crud en el carrito, crear un mensaje y  enviar api a través de whatsapp; poder dar la opción de pagar por stripe/paypal etc y  consumir api del menú
 ***
 
 
