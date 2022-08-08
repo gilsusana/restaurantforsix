@@ -1,30 +1,63 @@
-# restaurantforsix
-Este es un proyecto que nos solicitó un cliente para su restaurante de comida a domicilio.
-Es una aplicación movil enfocada a la comodidad y facilidad del usuario.
+# RESTAURANT FOR SIX
+![logo](./img/logo-principal.png)
+***
+
+## Tabla de Contenidos
+
+1. [Información General](#información-general)
+2. [Capturas de Pantalla](#capturas-de-pantalla)
+3. [Tecnologías](#tecnologías)
+4. [Instalación](#instalación)
+5. [Soporte](#soporte)
+6. [Hoja de ruta](#hoja-de-ruta)
+7. [Autores](#autores)
+***
+
+## Información General
+
+Un cliente nos solicitó la creación de una app para su restaurante de comida a domicilio, que se enfocase en la comodidad y la usabilidad de esta; que se centrase enn un major experiencia por parte del usuario.
+Como característica principal del diseño se nos pidió que fuese mobile first(responsive) era que esta app debía ser mobile, tener un carrito de compras con un contador de productos (sumar y eliminar productos).
+*Proyecto en proceso de desarrollo.*   
+***
+
+## Capturas de pantalla
+
+***
+
+## Tecnologías
+
+* HTML: Version HTML 5 
+* CSS: Version CSS3
+* Javascript
+***
+
+## Instalación
+Como instalar el repositorio:
+
+1. Ingresar en Visual Studio Code
+2.  Clonar el proyecto con el comando: 
+ ``` 
+https://github.com/gilsusana/restaurantforsix.git
+***
 
 
-Mediante este enlace pueden clonar el proyecto https://github.com/gilsusana/restaurantforsix.git
-haciendo un git clone
+## Soporte
 
-La maquetación esta completa , pero estan en proceso los 5 siguientes pasos que les dejamos puesto en el siguiente apartado.
+Si tiene cualquier problema póngase en contacto con: 
+> emailEjemplo@gmail.com
+***
 
+## Hoja de ruta
 
-
-Proyecto APP para un Restaurante Características:
-
-Responsive (mobile first)
-Con JS hacer un carrito de compras con contador de productos (sumar y eliminar)
-Enviar pedido para que llegue un mensaje de WhatsApp confirmando el pedido #estilo.css.
-
-1. Diseño atómico componentes
-2. Animaciones y Estados de los componentes
-3. Maquetación
-4 Navegación e interacción
+En nuestra primera entrega presentamos la maquetación de la app del restaurante, con el sistema mobile first.
+Las su¡iguientes actualozaciones será para hacer responsive el diseño, mejorar la naevgación e interacción, un crud en el carrito, crear un mensaje y  enviar api a través de whatsapp; poder dar la opción de pagar por stripe/paypal etc y  consumir api del menú
+***
 
 
-5. ‘rud carrito’
-6. Crear mensaje y enviar api whatsapp
+## Autores
 
-7. Pago con stripe/paypal
-8. Consumir api del menú
-
+* **Susana Gil**
+* **Dina Yamani**
+* **Rosa Becerra**
+* **Laia Añó**
+* **Nadiale Bados**
