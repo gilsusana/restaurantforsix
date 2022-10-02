@@ -48,7 +48,7 @@ https://github.com/gilsusana/restaurantforsix.git
 ## Soporte
 
 Si tiene cualquier problema póngase en contacto con: 
-> emailEjemplo@gmail.com
+>susanagildeveloper@gmail.com
 ***
 
 ## Hoja de ruta
